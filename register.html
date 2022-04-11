@@ -1,0 +1,134 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panaderia Doña Carmelita</title>
+    <link rel="stylesheet" href="static/css/bootstrap/bootstrap.min.css">
+    <link real="stylesheet" href="js/formulario.js">
+    <link real="stylesheet" href="js/formularionumerico.js">
+    <link real="stylesheet" href="js/nombre-apellido.js">
+    <link rel="stylesheet" href="css/estilos.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="src/css/style.css?rnd=132">
+</head>
+  
+<div class="container">
+    <nav class="navbar navbar-expand-lg navbar-dark  bg-dark">
+        <a class="navbar-brand  text-white">
+            <img src="static\img\PANADERIALOGOBLANCO.png">
+
+        </a>
+        <button class="navbar-toggler" data-target="#menu" data-toggle="collapse" type="button">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+        <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav mr-auto">
+
+                <li class="nav-item active">
+                    <a href="index.html" class="nav-link">Inicio</a>
+                </li>
+                <li class="nav-item active">
+                    <a href="galeria.html" class="nav-link">Galeria</a>
+                </li>
+                <li class="nav-item active">
+                    <a href="pedidos.html" class="nav-link">Pedidos</a>
+                </li>
+                <li class="nav-item active">
+                    <a href="register.html" class="nav-link">Registro</a>
+                </li>
+                <li class="nav-item active">
+                    <a href="login.html" class="nav-link">Ingreso</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-danger" href="shopping.html" data-toggle="canvas" data-target="#carroDeCompras" aria-expanded="false" aria-controls="carroDeCompras"><i
+                            class="fas fa-shopping-cart"></i> <span class="text-dark">(<span
+                                id="cartCount">0</span>)</span></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+  <!-- Registro -->
+    <section id="seccionRegistro" class="container-fluid smooth-scroll">
+        <div class="container px-0 p-md-5 py-5" id="formContainer">
+            <div class="card py-4 p-md-5">
+                <div class="card-body text-center">
+                    <h4 class=" display-4 card-title">Registrarse</h4>
+                    <p class="card-text">Complete el siguiente formulario de registro
+                    </p>
+                </div>
+                <div class="card-body px-m-5 py-md-3">
+                    <form autocomplete="off" id="formularioReg" action="../index.html" method="post">
+                        <p>
+                            <label class="form-check-label" for="rUsuario">Nombre de Usuario*</label>
+                            <input type="text" class="form-control" id="rUsuario" name="rUsuario" required>
+                        </p>
+                        <p>
+                            <label class="form-check-label" for="rPassword">Password*</label>
+                            <input type="password" class="form-control" id="rPassword" name="rPassword" required>
+                        </p>
+                        <p>
+                            <label class="form-check-label" for="rPassword2">Re ingrese su Password*</label>
+                            <input type="password" class="form-control" id="rPassword2" name="rPassword2" required>
+                        </p>
+                        <p>
+                            <label class="form-check-label" for="rNombres">Nombres*</label>
+                            <input type="text" class="form-control" id="rNombres" name="rNombres" required>
+                        </p>
+                        <p>
+                            <label class="form-check-label" for="rApellidos">Apellidos*</label>
+                            <input type="text" class="form-control" id="rApellidos" name="rApellidos" required>
+                        </p>
+                        <p>
+                            <label class="form-check-label" for="rCorreo">Nombre de Usuario*</label>
+                            <input type="email" class="form-control" placeholder="pepito@correo.com" id="rCorreo" name="rCorreo" required>
+                        </p>
+                        <button type="submit" class="btn btn-lg btn-block btn-danger" id="form-btn" value="Enviar"><i
+                                class="fas fa-paper-plane"></i> Registrar Usuario</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Registro -->
+    <footer>
+        <div class="pie-pagina">
+            <div class="grupo-1">
+                <div class="box">
+                    <figure>
+                        <a href="#">
+                            <img src="static\img\PANADERIALOGOBLANCO.png">
+                        </a>
+                    </figure>
+                </div>
+                <div class="box">
+                    <h2>SOBRE NOSOTROS</h2>
+                    <P>Eileen Sepúlveda. </P>
+                    <P>Jocelyn Tapia. </P>
+                    <P>Rodrigo Maureira. </P>
+                </div>
+                <div class="box">
+                    <h2>SIGUENOS</h2>
+                    <div class="red-social">
+                        <a href="https://www.facebook.com/" class="facebook">
+                            <img src="img/fb.jpeg">
+                        </a>
+
+                        <a href="https://www.instagram.com/" class="instagram">
+                            <img src="img/ig.jpeg">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="grupo-2">
+                <small>&copy; 2022 <b>Panaderia carmelita</b> todos los Derechos Reservados </small>
+            </div>
+    </footer>
+
+
+
+        <script src="static/js/jquery/jquery-3.6.0.min.js"></script>
+        <script src="static/js/popper/popper.min.js"></script>
+        <script src="static/js/bootstrap/bootstrap.min.js"></script>
+
+</body>

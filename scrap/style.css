@@ -1,0 +1,195 @@
+     html {
+         font-size: 50%;
+     }
+     
+     body {
+         font-size: 16px;
+         font-family: "krub", sans-serif;
+         background-image: linear-gradient(to top, #dfe9f3 0%, 100%);
+     }
+     
+     *
+     {
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    }
+    
+    body 
+    { 
+        color:aliceblue;
+        background-image: url(static/img/panintegral.jpg); 
+        background-size:100% ;              
+    }
+    .contenedor
+    {
+        color:aliceblue
+    }
+    
+    .container-pedidos
+    {
+        width:75%; margin:0 auto;
+        justify-content: center;
+        font-size:large;
+    }
+    .pie-pagina{
+        width:100%;
+        background-color:black;
+         
+    }
+    .grupo-1{
+    
+        width: 100%;
+        max-width: 1200px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-gap: 50px;
+        padding: 45px 0px;
+    }
+    .box figure{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .box figure img{
+        width: 200px;
+    }
+    h2{
+        color:aliceblue;
+        margin-bottom: 25px;
+        font-size: 20px;
+    }
+    
+    p {
+        color: #efefef;
+        margin-bottom: 10px;
+        font-size: 12px;
+    }
+    
+    .red-social{
+         display:inline-block;
+         text-decoration:none;
+         
+         
+         
+    }
+
+     h1 {
+         font-size: 14rem;
+     }
+     
+     h1,
+     h2,
+     h3 {
+         text-align: center;
+     }
+     
+     .titulo {
+         text-align: center;
+         font-size: 3.8rem;
+         color: black;
+     }
+     
+     .contenedor {
+         width: 120rem;
+         margin: 0 auto;
+     }
+     
+     .nav-bg {
+         padding: 3rem;
+         background-color: rgb(216, 213, 45);
+     }
+     
+     .navegacion.principal.contenedor {
+         padding: 12rem;
+         display: flex;
+         justify-content: space-between;
+     }
+     
+     .navegacion.principal a {
+         background-color: white;
+         text-decoration: none;
+         font-size: 50rem;
+         font-weight: 700;
+         padding: 20rem;
+     }
+     
+     .navegacion.principal a:hover {
+         background-color: bisque;
+         color: blue;
+         font-size: 40rem;
+         font-weight: 700;
+         padding: 20rem;
+     }
+     
+     body {
+         background-color: grey;
+         font-size: 3rem;
+     }
+     
+     .hero {
+         background-image: url(../img/principal.jpg);
+         background-repeat: no-repeat;
+         background-size: cover;
+         margin: auto;
+         height: 450px;
+         padding: 20px;
+     }
+     
+     .contenido-hero .contenido-hero p {
+         color: white;
+         display: flex;
+         align-items: flex-end;
+     }
+     
+     .ubicacion {
+         display: flex;
+         align-items: flex-end;
+         text-align: center;
+         font-size: 10px;
+     }
+     
+     .pasteles {
+         /*float: left;
+         width: 600px;
+         height: 50px;
+         object-fit: cover;*/
+         width: 30%;
+         height: 30%;
+     }
+     
+     .Empanadas {
+         width: 600px;
+         height: 200px;
+     }
+     
+     .Pan-masa-madre {
+         width: 600px;
+         height: 100px;
+     }
+     
+     .parrafo {
+         color: white;
+     }
+     
+     .derechos {
+         color: red;
+         text-align: center;
+     }
+     
+     h4 {
+         font-size: 30px;
+         background-color: rgb(49, 102, 145);
+     }
+     
+     .parrafo-pastel {
+         color: white;
+     }
+     
+     .Empanadas-imagen {
+         width: 600px;
+         height: 200px;
+     }

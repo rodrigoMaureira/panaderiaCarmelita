@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" contest="ie=edge">
+    <meta name="viewport" content="windth=device-width, initial-scale=1.0">
+    <title>Panaderia doña carmelita</title>
+    <link rel="stylesheet" href="static/css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link real="stylesheet" href="js/formulario.js">
+    <link real="stylesheet" href="js/formularionumerico.js">
+    <link real="stylesheet" href="js/nombre-apellido.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="src/css/style.css?rnd=132">
+
+</head>
+
+<body class="pedidos-form">
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark  bg-dark">
+            <a class="navbar-brand  text-white">
+                <img src="static\img\PANADERIALOGOBLANCO.png">
+
+            </a>
+            <button class="navbar-toggler" data-target="#menu" data-toggle="collapse" type="button">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav mr-auto">
+
+                    <li class="nav-item active">
+                        <a href="index.html" class="nav-link">Inicio</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="galeria.html" class="nav-link">Galeria</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="pedidos.html" class="nav-link">Pedidos</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="register.html" class="nav-link">Registro</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="login.html" class="nav-link">Ingreso</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-danger" href="shopping.html" data-toggle="canvas" data-target="#carroDeCompras" aria-expanded="false" aria-controls="carroDeCompras"><i
+                                class="fas fa-shopping-cart"></i> <span class="text-dark">(<span
+                                    id="cartCount">0</span>)</span></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        
+    <div class="container-pedidos">
+            <form class="row g-3">
+                <div class="mb-3">
+                    <label for="txt-nombre" class="form-label">Nombre Completo</label>
+                    <input type="text" class="form-control" id="txt-nombre" placeholder="nombre">
+                </div>
+                <div class="container-fluid">
+                    <div class="mb-3">
+                        <label for="txt-direccion" class="form-label">Dirección</label>
+                        <input type="text" class="form-control" id="txt-direccion" placeholder="direccion">
+                    </div>
+                    <div class="mb-3">
+                        <label for="txt-correo" class="form-label">Email</label>
+                        <input type="text" class="form-control" id="txt-correo" placeholder="correo">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="txt-telefono" class="form-label">Telefono</label>
+                        <input type="text" class="form-control" id="txt-apellidomaterno" placeholder="telefono">
+                    </div>
+                    <div class="mb-3">
+                        <label for="txt-asunto" class="form-label">Asunto</label>
+                        <textarea class="form-control" id="txt-asunto" rows="3"></textarea>
+                    </div>
+                    <div class="mb-3">
+                        <input type="button" class="form-control btn btn-primary" id="btn" value="enviar" onclick="enviar()">
+                    </div>
+            </form>
+            </div>
+            <footer>
+                <div class="pie-pagina">
+                    <div class="grupo-1">
+                        <div class="box">
+                            <figure>
+                                <a href="#">
+                                    <img src="static\img\PANADERIALOGOBLANCO.png">
+                                </a>
+                            </figure>
+                        </div>
+                        <div class="box">
+                            <h2>SOBRE NOSOTROS</h2>
+                            <P>Eileen Sepúlveda. </P>
+                            <P>Jocelyn Tapia. </P>
+                            <P>Rodrigo Maureira. </P>
+                        </div>
+                        <div class="box">
+                            <h2>SIGUENOS</h2>
+                            <div class="red-social">
+                                <a href="#" class="facebook">
+                                    <img src="img/fb.jpeg">
+                                </a>
+
+                                <a href="#" class="instagram">
+                                    <img src="img/ig.jpeg">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grupo-2">
+                        <small>&copy; 2022 <b>Panaderia carmelita</b> todos los Derechos Reservados </small>
+                    </div> 
+            </footer>
+            <script src="static/js/jquery/jquery-3.6.0min.js"></script>
+            <script src="static/js/popper/popper.min.js"></script>
+            <script src="static/js/bootstrap"></script>
+            <script src="static/js/custom form/form-envia.js"></script>
+
+</body>
+
+</html>

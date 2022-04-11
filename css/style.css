@@ -1,0 +1,161 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+ 
+    .carousel-inner {
+        height: 70vh;
+        min-height: 600px;
+        background: no-repeat center center scroll;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+      }
+    body {
+         font-size: 16px;
+         font-family: "krub", sans-serif;
+        color: grey;
+        background-color: darkgray;
+          
+      }
+      
+     
+    
+     .contenedor {
+         width: 120rem;
+         margin: 0 auto;
+        }
+
+     .pie-pagina {
+        width: 100%;
+        background-color: black;
+    }
+    
+    .grupo-1 {
+        
+        width: 100%;
+        max-width: 1200px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 50px;
+        padding: 45px 0px;
+    }
+    
+    .box figure {
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: center
+        
+    }
+    
+    .box figure img {
+        width: 200px;
+    }
+
+      
+      
+      .news-cards {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 25px;
+        margin: 70px 0;
+      }
+      
+      .news-cards img {
+        width: 100%;
+        height: 180px;
+      }
+      
+      .news-cards h3 {
+        font-size: 20px;
+        margin: 10px 0;
+      }
+      
+      .news-cards a {
+        padding: 10px 0;
+        color: #f2f2f2;
+        text-transform: uppercase;
+        display: inline-block;
+        font-weight: bold;
+      }
+      
+    
+    .servicios{
+        text-align: center;
+        font-size: 3.8rem;
+        color: black;
+    }
+   
+    .titulo {
+         text-align: center;
+         font-size: 3.8rem;
+         color: black;
+     }
+     .PANADERIA{
+
+        text-align: center;
+        font-size: 3.8rem;
+        color: black;
+        justify-content: center
+     }
+     
+
+     .hero {
+      background-image: url(../hero.jpg/img/principal.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin: auto;
+      height: 450px;
+      padding: 20px;
+  }
+  
+  .contenido-hero .contenido-hero p {
+      display: flex;
+      align-items: flex-end;
+  }
+  
+  .ubicacion {
+      display: flex;
+      align-items: flex-end;
+      text-align: center;
+      font-size: 10px;
+  }
+
+/* Carrito de compras overlay */
+
+.bs-canvas-overlay {
+  opacity: 0;
+  z-index: -1;
+}
+
+.bs-canvas-overlay.show {
+  opacity: 0.85;
+  z-index: 1100;
+}
+
+.bs-canvas {
+  top: 0;
+  width: 0;
+  z-index: 1110;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.bs-canvas-left {
+  left: 0;
+}
+
+.bs-canvas-right {
+  right: 0;
+}
+
+.bs-canvas-anim {
+  transition: all .4s ease-out;
+  -webkit-transition: all .4s ease-out;
+  -moz-transition: all .4s ease-out;
+  -ms-transition: all .4s ease-out;
+}

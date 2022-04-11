@@ -1,0 +1,60 @@
+body
+{background-color: gray ;}
+
+img {
+    float: none;
+    width:  640px;
+    height: 480px;
+    object-fit: cover;
+}
+
+.panes {
+    float: none;
+    width:  640px;
+    height: 480px;
+    object-fit: cover;
+}
+
+
+
+.panes1 {
+    float: none;
+    width:  640px;
+    height: 480px;
+    object-fit: cover;
+}
+
+.panes2 {
+    float: none;
+    width:  640px;
+    height: 480px;
+    object-fit: cover;
+}
+
+.empanadas2 {
+    float: none;
+    width:  640px;
+    height: 480px;
+    object-fit: cover;
+}
+
+.empanadas3 {
+    float: none;
+    width:  640px;
+    height: 480px;
+    object-fit: cover;
+}
+
+.pastel1 {
+    float: none;
+    width:  640px;
+    height: 480px;
+    object-fit: cover;
+}
+
+.pastel2 {
+    float: none;
+    width:  640px;
+    height: 480px;
+    object-fit: cover;
+}
